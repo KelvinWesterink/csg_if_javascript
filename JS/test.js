@@ -7,8 +7,16 @@ function setup() {
 
 function draw() {
   noStroke();
+  translate(0,225)
   fill('steelblue');
-  ellipse(0,0,800);
-  fill('deepskyblue');
-  ellipse(450,450,400);
+  for (var n = 0;n < 5;n++) {
+      if(n == 2)
+        fill('blue');
+      else
+        fill('red');
+
+  rect(0,75,75);
+  translate(95,0)
+  
+  }
 }

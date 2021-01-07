@@ -13,7 +13,7 @@ function setup() {
 function draw() {
   background('lavender');
   fill('black');
-  breedte = width / 4;
+  breedte = width /aantal;
   text("aantal = " + aantal,10,20);  
   
   push();
